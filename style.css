@@ -1,0 +1,36 @@
+*,html{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.hero-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    padding-left: 40px;
+    gap: 40px;
+    
+    flex-wrap: wrap;
+
+}
+.my-image{
+    width: 500px;
+    border-radius: 10px;
+
+}
+.hero{
+    background-color:aqua;
+}
+.container{
+    margin-right: 40px;
+    margin-left: 40px;
+
+}
+.name{
+    font-size: 40px;
+    text-align: center;
+}
+.biography{
+    padding: 40px;
+}

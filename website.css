@@ -1,0 +1,166 @@
+*,html{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+.log{
+    width: 80px;
+    border-radius: 100%;
+}
+.nav-child{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    
+
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+    
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 50px;
+}
+
+.wrapper-all{
+    background-image: url(https://as1.ftcdn.net/jpg/01/91/78/32/480_F_191783282_0TVrx5VrvrkpDHSKdjjI87HkbXJy5TMw.jpg?token=1733841561_Y3BMvHYANdS7TJ7_RT1nzEHg9mB2KWx_mCv9wkFHYdY);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    margin: 0;
+    
+}
+.center {
+    padding-top: 160px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+.center-h1{
+    font-size: 68px;
+    color: white;
+}
+.center-p {
+    font-size: 18px;
+    padding-top: 30px;
+    color: white;
+    font-weight: 400;
+}
+.button{
+    padding: 15px 40px;
+    background-color: #1DDDBD;
+    border-radius: 10px;
+    margin-top: 30px;
+    font-size: 14px;
+    border: transparent;
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.logo-name{
+    font-size: 18px;
+    color: white;
+}
+.center-left-image{
+    width: 600px;
+    border-radius: 10px;
+}
+.section {
+    padding-left: 10%;
+    padding-top: 60px;
+    display:flex;
+    flex-wrap: wrap-reverse;
+    gap: 50px;
+    padding-bottom: 40px;
+
+}
+.logo-image{
+    width: 60px;
+    border-radius: 10px;
+}
+.logos-child {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.logo-span{
+    color: white;
+}
+.logos{
+    padding-right: 10%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.ha{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.second-wrapper{
+    padding-top: 30px;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.second-h2{
+    text-align: center;
+}
+
+.wrapper-a{
+    text-decoration: none;
+}
+.ieltsp{
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+.wrapper-sertifikat{
+    background-color: #1DDDBD;
+    border: 2px solid lightgray;
+    backdrop-filter: blur(20px);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+.for-header{
+    padding-top: 30px;
+}
+
+@media (max-width: 440px) {
+    .nav-child{
+        display: none;
+    }
+    .center-left-image{
+        width: 100%;
+    }
+    .center-h1{
+        font-size: 40px;
+    }
+    .center{
+        padding-top: -40pxs;
+    }
+    .button{
+        font-size: 12px;
+    }
+    .second-wrapper{
+        gap: 30px;
+    }
+
+}
